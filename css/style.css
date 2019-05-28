@@ -1,10 +1,9 @@
-body{
-    background-color: lightgrey;
-}
 
-.about h2{
-    color:dodgerblue;
-}
+
+            .about h2{
+                color:dodgerblue;
+            }
+
 
 
             .interest ul{
@@ -34,9 +33,11 @@ body{
             }
 
             .interest {
-                background-color: darkgrey;
+                background-color: #e6eaf2;
     
             }
+
+
         
             .mood ul{
                 list-style: none;
