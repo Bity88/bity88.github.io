@@ -1,0 +1,67 @@
+body{
+    background-color: lightgrey;
+}
+
+.about h2{
+    color:dodgerblue;
+}
+
+
+            .interest ul{
+                list-style: none;
+            }
+            
+           .interest li{
+                display:  inline-block;
+            }
+            
+            .interest li img{
+                height:300px;
+                width: 200px;
+            }
+            
+            .interest p{
+                text-align: center;
+            }
+            
+            .interest li a{
+                text-decoration: none;
+            }
+            
+             
+            .interest li a:hover{
+                text-decoration:underline;
+            }
+
+            .interest {
+                background-color: darkgrey;
+    
+            }
+        
+            .mood ul{
+                list-style: none;
+            }
+            
+              
+           .mood li{
+                display:  inline-block;
+            }
+            
+            .mood img{
+                height: 200px;
+            }
+            
+            .mood h3{
+                text-align: center;
+            }
+            
+            .neighbour ul{
+                list-style: disc;
+            }
+            
+            
+            
+            .neighbour p:first-letter{
+                font-size: 30px;
+            }
+            
