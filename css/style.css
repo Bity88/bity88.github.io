@@ -1,8 +1,25 @@
 
 
+
+            .portfolio ul{
+                list-style: none;
+                padding:0;
+            }
+
+            .portfolio ul li a{
+                text-decoration: none;
+            }
+
+            
             .about h2{
                 color:dodgerblue;
             }
+
+
+
+          
+
+         
 
 
 
