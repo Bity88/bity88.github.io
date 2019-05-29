@@ -53,7 +53,7 @@ h2 span{
 }
 
 .strike{
-    text-decoration:overline;
+    text-decoration:line-through;
 }
 
 .links ul {
@@ -74,9 +74,7 @@ h2 span{
    
 }
 
-.code-validator {
-margin-left: 50px;
-}
+
 
 footer{
     float: right;
