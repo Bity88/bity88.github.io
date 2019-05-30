@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    
+}
+
+
+.container{
+    border: 5px solid  green; 
+}
+
+header{
+    border:5px solid red;
+}
+
+header h2{
+    border: 5px solid orange;
+}
+
+.row{
+    border:5px solid blue;
+}
+
+.row h2 span{
+    border:5px solid purple;
+}
+
+.row p{
+    margin: 10px 10px;
+}
