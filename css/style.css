@@ -82,4 +82,22 @@
             .neighbour p:first-letter{
                 font-size: 30px;
             }
+
+            /*----------
+            INDEX
+            ------------*/
+
+            .portfolio{
+                margin:auto;
+                width:500px;
+                background-color:#DDDDDD;
+            }
+            li{
+                font-weight: bold;
+                font-family: 'Lucida Sans';
+            }
+
+            li a{
+                font-weight: normal;    
+            }
             
