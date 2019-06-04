@@ -17,28 +17,34 @@
 
         <div class="controllers">
 
-            <fieldset>
+            <fieldset id="playcontrol">
                 <legend>Play Controls</legend>
                 <button id="start">Start</button>
-                <button id="stop">Stop</button>
+                <button id="stop" disabled>Stop</button>
             </fieldset>
 
-            <fieldset>
+            <fieldset id="animation">
                     <legend>Animation</legend>
-                    <select>
-                        <option>Bike</option>
-                        <option>Bike</option>
-                        <option>Bike</option>
+                    <select id="animationType" name="Animation">
+                        <option value = "BLANK" selected>Blank</option>
+                        <option value="EXERCISE">Exercise</option>
+                        <option value="JUGGLER">Juggler</option>
+                        <option value="BIKE">Bike</option>
+                        <option value="DIVE">Dive</option>
+                        
 
                     </select>
             </fieldset>
 
-            <fieldset>
+            <fieldset id="size">
                     <legend>Size</legend>
-                    <select>
-                            <option>Tiny</option>
-                            <option>Small</option>
-                            <option>Big</option>
+                    <select id="frontsize" name="size">
+                        <option value="Tiny">Tiny</option>
+                        <option value="Small">Small</option>
+                        <option value="Medium" selected>Medium</option>
+                        <option value="Large">Large</option>
+                        <option value="ExtraLarge">Extra Large</option>
+                        <option value="XXL">XXL</option>
     
                         </select>
 
@@ -59,7 +65,21 @@
 
 
     </div>
+    
 
+    <footer>
+        <a href="https://validator.w3.org/check/referer">
+            <img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="html validator"/>
+        </a>
+
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+        </a>
+
+        <a href="https://webster.cs.washington.edu/jslint/?referer">
+            <img src="https://webster.cs.washington.edu/w3c-js.png" alt="Valid JS" />
+        </a>
+    </footer>
 
 </body>
 
