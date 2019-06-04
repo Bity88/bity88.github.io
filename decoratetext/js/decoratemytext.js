@@ -10,7 +10,8 @@ let a = function blingFunction(){
                 textArea.style.fontWeight = "bold";
                 textArea.style.color = "green";
                 textArea.style.textDecoration = "underline";
-            }  
+                document.body.style.backgroundImage = "url('./img/hundred-dollar-bill.jpg')";
+            } 
     
             else{
                 textArea.style.fontWeight = "Normal";
@@ -18,8 +19,8 @@ let a = function blingFunction(){
     
     
     };
-    
-    a;
+
+   
     
     
     
