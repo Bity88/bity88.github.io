@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <img src="img/cof-logo.png" id="logo" alt="Capital Logo">
+
+        <form action="">
+
+        
+
+        <fieldset id="info">
+            <legend>Personal Information</legend>
+
+            
+
+            <div id="personal">
+            
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" pattern="[a-zA-Z\D]{1,}" title="Only letters"required>
+            
+                <label for="lname">Second Name</label>
+                <input type="text" id="lname" pattern="[a-zA-Z\D]{1,}" title="Only letters" required>
+
+                </br>
+                <label for="date">Date of Birth</label>
+                <input type="date" id="date"  required>
+
+                <label for="mname">Mothers Maiden Name</label>
+                <input type="text" id="mname" pattern="[a-zA-Z\D]{1,}" title="Only letters" required>
+
+            </div>
+
+           
+
+            <label for="sin">Social Insurance Number</label><span>(Optional)</span>
+            <input type="text" id="sin" pattern="[0-9]{9}" title="Please input 9 digits">
+
+            <label for="fname">How did you learn about this card? (Optional)</label>
+                <select>
+
+                    <option>Mail Offer</option>
+                    <option>Search Engine</option>
+                    <option>Television</option>
+                    <option>Newspaper</option>
+                    <option>Magazine</option>
+                    
+                </select>
+
+                <div id="cardimg">
+                    <img src="img/card.png" alt="Master Card">
+                </div>
+            
+
+        </fieldset>
+
+
+        <fieldset id="contact">
+                <legend>Contact Information</legend>
+
+                
+                    
+                    <label for="address">Home Address</label>
+                    <input type="text" id="address"  pattern="[a-zA-Z\D]{1,}" title="Only letters" required>
+                
+                    <label for="apt">Suite/Apt.#(if Applicable)</label>
+                    <input type="text" id="apt" pattern="" title="Please enter valid input">
+                     </br>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required pattern="[a-zA-Z0-9]+@" title="Enter a valid email">
+        
+                    <label for="mname">Primary Phone Number</label>
+                    <input type="tel" id="mname" pattern="[0-9]{10}" title="Plese enter 10 digits phone number">
+        
+                    
+        
+                
+                
+    
+         </fieldset>
+
+            <hr/>
+
+        <fieldset id="authorize">
+                <legend>Authorized User</legend>
+
+            
+                    <input type="checkbox" id="user_authorize"  required>
+                    <label for="user_authorize">
+                        <Strong>Yes!</Strong> I would like to add an Authorized User (AU) to my account and receive a second card with their name on it.
+                    </label>
+
+                    <div>
+                    <label for="auth_fname">First Name</label></br> <input type="text" id="auth_fname"  pattern="[a-zA-Z\D]{1,}" title="Only letters" required>
+                    <label for="auth_lname">Last Name</label> <input type="text" id="auth_lname"  pattern="[a-zA-Z\D]{1,}" title="Only letters" required>
+                    <label for="auth_date">Date of Birth</label> <input type="date" id="auth_date"></br>
+                    <input type="checkbox" id="sameAddress"><label>Same Address As Mine</label></br>
+                    <label for="address">Home Address</label>
+                        <input type="text" id="address" required>
+                    
+                        <label for="apt">Suite/Apt.#(if Applicable)</label>
+                        <input type="text" id="apt" pattern="" title="Please enter valid input">
+            
+                        
+                    </br>
+                        <label for="mname">Primary Phone Number</label>
+                        <input type="tel" id="mname" pattern="[0-9]{10}">
+
+                    </br>
+                        <input type="checkbox" id="certify_auth"><label for="certify_auth">I certify that I have the consent of any Authorized User designated on this application to the collection, use and disclosure of their personal information as set out in the Important Disclosures.</label>
+                    
+
+            
+                    </div>
+
+            
+        </fieldset>
+
+
+
+        <fieldset id="status">
+
+            <legend>Employment Information</legend>
+
+            
+                <label>Employment Status</label>
+                <select>
+                    <option>Employed</option>
+                    <option>Self-Employed</option>
+                    <option>Retired</option>
+                    <option>Student</option>
+                    <option>Un-Employed</option>
+                </select>
+
+       
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Financial Information</legend>
+            <label>Do you:(Optional)</label>
+            <input type="radio" id="own" name="resident" value="Own"><label for="own">Own</label>
+            <input type="radio" id="rent" name="resident" value="Rent"><label for="rent">Rent</label>
+            <input type="radio" id="parents" name="resident" value="Live with parents"><label for="parents">Parents</label>
+            <input type="radio" id="other" name="resident" value="Other"><label for="other">Other</label>
+
+        </br>
+
+            <label for="income">Your Annual Income(Before Taxes)</label>
+            <input type="text" id="income" value="$" pattern="[0-9]" title="Enter valid input">
+        </br>
+
+            <label for="household_income">Other Household Income(Before Taxes)</label>
+        
+            <input type="text" id="household_income" value="$" pattern="[0-9]" title="Enter valid input">
+
+        </br>
+
+            <label>Do you have a mortgage?(Optional)</label>
+            <label for="yes">Yes</label><input type="radio" id="yes">
+            <label for="no">No</label><input type="radio" id="no">
+        </br>
+
+            <label for="monthly_rent">Monthly Rent/Mortgage(Optional)</label>
+            <input type="text" id="monthly_rent" value="$" pattern="[0-9]" title="Enter valid input">
+
+        </br>
+
+            <label for="account">Do you have any bank accounts?</label>
+            <select>
+                <option>Chequing and Savings</option>
+                <option>Chequing only</option>
+                <option>Savings only</option>
+                <option>Neither</option>
+            </select>
+
+        </br>
+
+            <label>Would you like to use your card for cash advances? (Optional)</label>
+            <label for="yes">Yes</label><input type="radio" id="yes">
+            <label for="no">No</label><input type="radio" id="no">
+
+        </fieldset>
+
+        <hr/>
+
+        <div id="submit">
+            <button type="submit" id="confirm">REVIEW MY APPLICATION</button>
+        </div>
+
+    
+    </form>
+
+    </div>
+</body>
+
+</html>
