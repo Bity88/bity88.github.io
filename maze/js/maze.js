@@ -1,7 +1,11 @@
 $(document).ready(function(){
 
+    var start = 0;
     $("#start").click(function(){
 
+        start = 1;
+
+        $("#status").text("Click the \"S\" to begin.")
         $("#maze div.boundary").removeClass("youlose");
        
           
@@ -9,11 +13,12 @@ $(document).ready(function(){
 
 
             $("div.boundary").mouseover(function(){
+                if(start==1){
 
                 $("#maze div.boundary").addClass("youlose");
-                $("div.example").append("<h4></h4>");
-                $("div.example h4").text("You Lost!");
-                $(".example h4").css({"color":"red", "margin": "auto"});
+                start =0;
+               
+                }
 
                 $("#start").click(function(){
 
@@ -31,10 +36,13 @@ $(document).ready(function(){
             });
 
             $("#end").click(function(){
-                $("div.example").append("<h4></h4>");
-                $("div.example h4").text("You Won!");
-                $(".example h4").css({"color":"blue", "margin": "auto"});
-                
+
+                if(start==1){
+                $("#status").text("You Won!")
+                start =0;
+                }
+
+                 
 
             });
 
