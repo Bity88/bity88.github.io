@@ -39,49 +39,39 @@
 
 
 
-const account = (function(){
-    "use strict";
-    
-    let accountInfolist = [];
-    
-    return{
-        
-        createAccount: function(accountinfo){
-            return accountInfoList.push(accountinfo);
-        },
-        
-        display: function(){
-        
-            return accountInfoList;
-        }
+const account =(function(){
+    "use strict"
+      const accountList=[];
+      return{
+           add:function(details){
+               accountList.push(details);
+           },
+           display: function(){
+             return accountList;
+           }
+      }
+  })();
+  
+  document.getElementById("newAccount").onclick=function(){
+    var account_name=document.getElementById("accountName").value;
+    var deposit=document.getElementById("deposit").value;
+    account.add({name: account_name, deposit: deposit});
+
       
-        
-    }
-});
+    let x = account.display();
+    account.display().forEach((element)=>{
+      // console.log(element)
+       document.getElementById("screen").value+=(`Account name: ${element.name}   Deposit: ${element.deposit}`+"\n");
+    });
+  }
+  
+  
+  
+  
+  
 
-document.getElementById("button").onclick = function(){
-    
-    "use strict";
-    
-    let accName = document.getElementById("account_name").value;
-    let bal = document.getElementById("deposit").value;
-
-    console.log(accName);
-    
-    account.createAccount({name: accName, deposit: bal});
-    
-    account.display()
-        .forEach((element)=>
-                 document.getElementById("textarea").value += ("Account Name:"+element.name+ "Balance:" + element.balance));
-    
-    
-}
-
-
-
-
-
-
+  
+  
 
 
 
