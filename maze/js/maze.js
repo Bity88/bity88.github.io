@@ -16,6 +16,7 @@ $(document).ready(function(){
                 if(start==1){
 
                 $("#maze div.boundary").addClass("youlose");
+                $("#status").text("You Loose!")
                 start =0;
                
                 }
@@ -40,6 +41,7 @@ $(document).ready(function(){
                 if(start==1){
 
                     $("#maze div.boundary").addClass("youlose");
+                    $("#status").text("You Loose!");
                     start =0;
                    
                     }
@@ -53,7 +55,7 @@ $(document).ready(function(){
 
             });
 
-            $("#end").click(function(){
+            $("#end").mouseover(function(){
 
                 if(start==1){
                 $("#status").text("You Won!")
