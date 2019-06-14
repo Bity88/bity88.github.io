@@ -1,3 +1,5 @@
+package controller;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -17,8 +19,8 @@ public class IndexServlet extends HttpServlet {
 
         PrintWriter out = resp.getWriter();
         out.println("<html><head><title>Welcome</title></head><body>");
-        out.println("<h5>Welcome "+user+"</h5>");
-        out.println("<a href="/logout">Logout</a>");
+        out.println("<h3>Welcome "+user+"</h3>");
+        out.println("<a href=\"logout\">Logout</a>");
         out.println("</body></html>");
 
     }

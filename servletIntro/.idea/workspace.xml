@@ -7,23 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d568db8e-d357-4bbe-a4f0-2a7de200ac8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../servlet_Intro/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/.idea/artifacts/stateManagement_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/IndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/UserList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/stateManagement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/Filter/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/Filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/controller/Logout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/WEB-INF/classes/IndexServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/WEB-INF/classes/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/WEB-INF/classes/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/WEB-INF/classes/UserList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/src/main/java/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/controller/IndexServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/src/main/java/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/controller/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/controller/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/src/main/java/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/controller/UserList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/target/classes/IndexServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/target/classes/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/target/classes/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/target/classes/UserList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/web/login.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/servlet_Intro/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -56,15 +62,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servlet_Intro/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/servlet_Intro/web/support.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51" />
+            <state relative-caret-position="357">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -100,7 +108,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -172,7 +180,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/MUM World/WAP/demo projects/custom-tag-demo/custom-tag-demo/pom.xml" />
+    <property name="last_opened_file_path" value="D:/MUM World/WAP/demo projects/ServletFilterExample" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -354,15 +362,15 @@
       <option name="presentableId" value="Default" />
       <updated>1560281309270</updated>
       <workItem from="1560281311879" duration="4348000" />
-      <workItem from="1560356582921" duration="14025000" />
+      <workItem from="1560356582921" duration="16534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18373000" />
+    <option name="totallyTimeSpent" value="20882000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1508043" />
@@ -457,14 +465,12 @@
     <entry file="file://$PROJECT_DIR$/servlet_Intro/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servlet_Intro/web/support.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/servlet_Intro/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/servlet_Intro/src/main/java/MyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -473,8 +479,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servlet_Intro/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/servlet_Intro/web/support.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

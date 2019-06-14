@@ -1,10 +1,9 @@
+package controller;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
+import javax.servlet.http.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -17,11 +16,33 @@ public class Login extends HttpServlet {
             String username = req.getParameter("username");
             String password = req.getParameter("password");
 
+
+
+
+
             PrintWriter out = resp.getWriter();
 
 
 
             if(UserList.validateUser(username,password)){
+
+                if(req.getParameter("remember")!=null){
+                Cookie cookie = new Cookie("username", username);
+                cookie.setMaxAge(30*24*60*60);
+                resp.addCookie(cookie);
+;
+
+
+                }
+
+
+                     else if(req.getParameter("remember")==null){
+                         Cookie ck = new Cookie("username", "");
+                        ck.setMaxAge(0);
+                        resp.addCookie(ck);
+                }
+
+
 
                 HttpSession session = req.getSession();
                 session.setAttribute("username",username);

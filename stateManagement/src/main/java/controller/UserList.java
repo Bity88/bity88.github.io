@@ -1,4 +1,8 @@
+package controller;
+
 public class UserList {
+    public String name;
+    private String password;
 
     public static boolean validateUser(String username, String password){
 
@@ -12,6 +16,19 @@ public class UserList {
 
         return status;
     }
+
+//    public static void main(String[] args){
+//        UserList u = new UserList();
+//
+//
+//
+//    }
+
+
+
+
+
+
 
 
 }
