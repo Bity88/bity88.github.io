@@ -11,7 +11,8 @@
     <title>State Management</title>
   </head>
   <body>
-    <h2>Welcome</h2>
-  <a href="login.jsp">Login</a>
+
+    <h2>Welcome ${username}</h2>
+    <a href="logout">Logout</a>
   </body>
 </html>

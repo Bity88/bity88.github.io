@@ -9,7 +9,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/index")
+//@WebServlet("/index")
 public class IndexServlet extends HttpServlet {
 
     @Override

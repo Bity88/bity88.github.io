@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebFilter("/AuthenticationFilter")
+@WebFilter("/*")
 public class AuthenticationFilter implements Filter {
 
 
@@ -26,12 +26,15 @@ public class AuthenticationFilter implements Filter {
 
             HttpSession session = req.getSession(false);
 
-                if(session == null){
-                    res.sendRedirect("login.jsp");
+            boolean isLogged = session !=null && session.getAttribute("username")!=null;
+            boolean isLoggedIn = req.getRequestURI().equals(req.getContextPath()+"/login")||req.getRequestURI().equals("/");
+                if(isLogged || isLoggedIn){
+                     filterChain.doFilter(req,res);
                 }
                     else
                 {
-                    filterChain.doFilter(servletRequest,servletResponse);
+
+                     res.sendRedirect("/");
                 }
     }
 

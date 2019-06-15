@@ -7,29 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d568db8e-d357-4bbe-a4f0-2a7de200ac8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/Filter/AuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/Filter/MyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/controller/Logout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../stateManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/WEB-INF/classes/IndexServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/WEB-INF/classes/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/WEB-INF/classes/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/WEB-INF/classes/UserList.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/out/artifacts/stateManagement_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/src/main/java/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/controller/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/src/main/java/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/controller/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/controller/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/src/main/java/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/controller/UserList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/target/classes/IndexServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/target/classes/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/target/classes/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/target/classes/UserList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stateManagement/src/main/java/Filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/src/main/java/Filter/AuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../stateManagement/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stateManagement/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../stateManagement/web/login.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,7 +51,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/servlet_Intro/web/support.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="408">
               <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
             </state>
           </provider>
@@ -383,7 +364,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,7 +462,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/servlet_Intro/web/support.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="408">
           <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
         </state>
       </provider>

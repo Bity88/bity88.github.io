@@ -13,7 +13,7 @@
 <body>
 
 <form action = "/login" method="post">
-
+        <fieldset>
       <label>Username:</label><br/>
         <input id="username" name="username" value="${cookie.username.value}"><br/>
 
@@ -22,14 +22,14 @@
         <br/>
 
         <label>Remember me</label>
-        <input type="checkbox" id="remember" name="remember">
+        <input type="checkbox" id="remember" name="remember" ${cookie.username.value !=null ? "checked": null}>
 
          <br/>
 
         <input type="submit" value="Login" >
 
 
-
+        </fieldset>
 
     </form>
 

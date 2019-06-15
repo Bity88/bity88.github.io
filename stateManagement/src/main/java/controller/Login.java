@@ -26,6 +26,9 @@ public class Login extends HttpServlet {
 
             if(UserList.validateUser(username,password)){
 
+                HttpSession session = req.getSession();
+                session.setAttribute("username",username);
+
                 if(req.getParameter("remember")!=null){
                 Cookie cookie = new Cookie("username", username);
                 cookie.setMaxAge(30*24*60*60);
@@ -43,11 +46,16 @@ public class Login extends HttpServlet {
                 }
 
 
+                Cookie promoCokie = new Cookie("promo", "$100");
+                 promoCokie.setMaxAge(30*24*60*60);
+                 resp.addCookie(promoCokie);
 
-                HttpSession session = req.getSession();
-                session.setAttribute("username",username);
-                RequestDispatcher rs = req.getRequestDispatcher("index");
-                rs.forward(req, resp);
+
+
+
+                resp.sendRedirect("index.jsp");
+
+
 
             }
 
